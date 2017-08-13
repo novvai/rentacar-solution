@@ -20,4 +20,3 @@
     5. Login for the administrator panel -> 
       username: admin@rentacar.com
       pass: 123456
-
