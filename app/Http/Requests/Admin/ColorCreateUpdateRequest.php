@@ -37,9 +37,9 @@ class ColorCreateUpdateRequest extends FormRequest
     public function messages()
     {
         return [
-            'title.required' => 'Model name field is required',
-            'title.min'      => 'Model name field must be atleas :min characters',
-            'title.max'      => 'Model name field should not exceed :max characters',
+            'title.required' => 'Color name field is required',
+            'title.min'      => 'Color name field must be atleas :min characters',
+            'title.max'      => 'Color name field should not exceed :max characters',
         ];
     }
 }

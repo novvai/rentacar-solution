@@ -14,7 +14,7 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             {!! Form::label('car_id','Car') !!}
-                            {!! Form::select('car_id', @$carsList, null,['class'=>'form-control']) !!}
+                            {!! Form::select('car_id', (@$carsList)?@$carsList:[], null,['class'=>'form-control']) !!}
                         </div>
                         <div class="form-group">
                             {!! Form::label('for','Reservation dates') !!}

@@ -51,8 +51,12 @@
             $.each(response.data.modelsList, function (key, value) {
             $('#modelIds').append('<option value="'+key+'">'+value+'</option>')
             })
-            if (!flag && {{@$car->id}}) {
-                    $('#modelIds').val({{$car->car_brand_model_id}});
+            var editCar = 0;
+            @if(@$car)
+                editCar = 1;
+            @endif
+            if (!flag && editCar) {
+                    $('#modelIds').val("{{@$car->car_brand_model_id}}");
             }
         });
     }
