@@ -17,5 +17,7 @@
        composer dump-autoload
        php artisan migrate --seed
     4. Open in browser of choice : http://localhost/../rentacar-solution/public/
-
+    5. Login for the administrator panel -> 
+      username: admin@rentacar.com
+      pass: 123456
 
