@@ -7,7 +7,7 @@
   3. PhpMyAdmin
 # To setup the project for testing, please follow these steps: 
     1. Clone the repository
-    2. Run Xampp and create new data base named *rent_a_car*
+    2. Run Xampp and create new database named *rent_a_car*
     2. Open up *.env* file and configure
        - DB_DATABASE=rent_a_car
        - DB_USERNAME=root
@@ -17,6 +17,6 @@
        composer dump-autoload
        php artisan migrate --seed
     4. Open in browser of choice : http://localhost/../rentacar-solution/public/
-    5. Login for the administrator panel -> 
+    5. Login for the administration panel -> 
       username: admin@rentacar.com
       pass: 123456
